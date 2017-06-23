@@ -1,0 +1,150 @@
+{
+   "modal_unknown_tracking_title" : {
+      "message": "Трекинг номер не распознан"
+   },
+   "modal_unknown_tracking_descr" : {
+      "message": "Извините, мы не смогли определить службу отслеживания для этого трекинг номера."
+   },
+   "modal_choose_postal_service_title"  : {
+      "message": "Выберите службу доставки для"
+   },
+   "modal_choose_postal_service_notify" : {
+      "message": "уведомлять об изменениях местоположения посылки"
+   },
+   "options_show_context_menu" : {
+      "message": "Показывать отслеживание в контекстном меню (нужна перезагрузка браузера)"
+   },
+   "options_save_button" : {
+      "message": "Сохранить"
+   },
+   "options_save_button_saved" : {
+      "message": "Успешнно сохранено"
+   },
+   "options_track_code_pill" : {
+      "message": "Трек-коды"
+   },
+   "options_data_storage_on_disk" : {
+      "message" : "Размер хранилища на диске:"
+   },
+   "options_notification_change_message" : {
+      "message" : "Управлять настройками уведомлений вы можете в профиле пользователя:"
+   },
+   "options_add_trackings_to_profile_allowed" : {
+      "message" : "Автоматически сохранять отслеживаемые трекинг-коды в профиле:"
+   },
+   "options_shared_pill" : {
+      "message": "Общие"
+   },
+   "options_notifications_pill" : {
+      "message": "Уведомления"
+   },
+   "options_restore_pill" : {
+      "message": "Восстановление"
+   },
+   "options_restore_default_settings" : {
+      "message" : "Применить настройки по-умолчанию:"
+   },
+   "options_allow_highlight_tracking" : {
+      "message": "Разрешить подсвечивать трекинг номера на сайтах:"
+   },
+   "options_restore_label" : {
+      "message" : "сбросить к настройкам по-умолчанию"
+   },
+   "options_allow_collect_statistics" : {
+      "message" : "Разрешить собирать и обрабатывать статистику (анонимно)"
+   },
+   "options_yes" : {
+      "message": "Да"
+   },
+   "options_no" : {
+      "message": "Нет"
+   },
+   "popup_profile_menu_name" : {
+      "message": "Профиль"
+   },
+   "popup_forum_menu_name" : {
+      "message": "Форум"
+   },
+   "popup_website_menu_name" : {
+      "message": "Сайт"
+   },
+   "popup_tracking_input_placeholder" : {
+      "message": "Номер отслеживания"
+   },
+   "popup_login" : {
+      "message": "Войти"
+   },
+   "popup_exit": {
+      "message": "Выйти"
+   },
+   "track_on": {
+      "message": "Отследить на"
+   },
+   "brand_color": {
+      "message": "<b style='color:#0d63a1'>Где<span style='color:#f57815'>Посылка</span></b>"
+   },
+
+   "popup_packages_menu_item" : {
+      "message": "Мои посылки"
+   },
+   "popup_archive_menu_item" : {
+      "message": "Архив"
+   },
+   "popup_orders_at_menu_item" : {
+      "message": "Мои заказы на"
+   },
+   "popup_letyshops_at_menu_item" : {
+      "message": "Получить 5% кешбека на"
+   },
+   "badge_found_tracking_numbers": {
+      "message": "Найденные трекинг номера"
+   },
+   "track_package_by_tracking" : {
+      "message": "Отследить посылку по трек-коду %s"
+   },
+   "track_package" : {
+      "message": "Отследить посылку"
+   },
+   "track_number_header" : {
+      "message": "Номер отслеживания:"
+   },
+   "popup_already_locate" : {
+      "message": "Отслеживается"
+   },
+   "popup_new_status_badge_title" : {
+      "message": "Изменений статуса у посылок"
+   },
+   "button_badge_title": {
+      "message": "У ваших посылок изменились местоположения"
+   },
+   "button_locate": {
+      "message": "Отследить"
+   },
+   "button_locate_it": {
+      "message": "Отслеживать"
+   },
+   "button_cancel": {
+      "message": "Отменить"
+   },
+   "button_save": {
+      "message": "Сохранить"
+   },
+   "detect_url" : {
+      "message" : "https://gdeposylka.ru/detect/"
+   },
+   "info_description": {
+      "message": "Плагин отслеживания почтовых отправлений. Трекинг посылок с сайтов AliExpress и JD. Отследить посылку с АлиЭкспресс стало проще."
+   },
+   "info_name": {
+      "message": "ГдеПосылка: отслеживание почтовых отправлений"
+   },
+   "info_short_name": {
+      "message": "ГдеПосылка"
+   },
+   "popup_signin_menu_item": {
+      "message": "Войти"
+   },
+   "popup_register_menu_item": {
+      "message": "Зарегистрироваться"
+   }
+}
