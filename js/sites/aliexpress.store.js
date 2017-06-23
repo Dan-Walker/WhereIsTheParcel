@@ -1,0 +1,1 @@
+chrome.storage.local.get(SETTINGS.local,function(a){if(1==a.options.collect_statistics_allowed){var b=document.all[0].outerHTML,c=b.match(/aliexpress\.com\/store\/(\d+)/);void 0!==c[1]&&(toolbarDebug&&console.log("Store collect"),analyzeAliStore(c[1]))}});

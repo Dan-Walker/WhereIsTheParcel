@@ -1,0 +1,1 @@
+$.cookie("plugin_installed","true",{expires:365,path:"/",domain:".packageradar.com"});var userId=$("meta[name='logged-in-user']").attr("content");userId&&chrome.runtime.sendMessage({command:"check_user",user:userId});
