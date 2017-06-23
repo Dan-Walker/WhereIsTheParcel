@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/page.popup.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="main">
+        <h1>
+            <a href="#" target="_blank" tabindex="-1" data-link="gp-index"><img src="https://gdeposylka.ru/img/basic/logo-v1-ru.svg" alt=""/></a>
+            <sup></sup>
+        </h1>
+        <div class="input-group input-group-sm">
+            <input type="text" class="tracking-input form-control" placeholder="Tracking number" data-i18n-placeholder="popup_tracking_input_placeholder" tabindex="0">
+            <span class="input-group-btn">
+                <a class="btn btn-gp tracking-input-button" type="button">
+                    <i class="gpf-gdeposylka"></i>
+                    <span data-i18n="button_locate">Locate</span>
+                </a>
+            </span>
+        </div>
+    </header>
+
+    <div class="row user-menu">
+        <div class="col-xs-12">
+            <div class="account only-logged hide">
+                <span class="btn-group btn-group-sm">
+                    <a href="#" class="username btn btn-primary btn-profile" target="_blank" data-i18n-title="popup_profile_menu_name" data-link="gp-profile"></a>
+                    <a href="#" class="btn btn-default btn-logout" target="_blank" data-i18n-title="popup_exit" data-link="gp-logout"><i class="fa fa-sign-out"></i></a>
+                </span>
+            </div>
+            <div class="account only-anon hide">
+                <span class="btn-group btn-group-sm">
+                    <a href="#" class="btn btn-primary btn-login" target="_blank" data-link="gp-login" data-i18n="popup_signin_menu_item">Войти</a>
+                    <a href="#" class="btn btn-default btn-register" target="_blank" data-link="gp-register" data-i18n="popup_register_menu_item">Регистрация</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-group dashboard">
+        <a href="https://gdeposylka.ru/tracks" data-link="gp-tracks" target="_blank" class="list-group-item gp-tracks-link only-logged">
+            <span data-i18n="popup_packages_menu_item">My Packages</span>
+            <span class="label label-danger" data-user-json="unread_count"></span>
+            <span class="badge" data-user-json="tracking_count"></span>
+        </a>
+        <a href="https://gdeposylka.ru/tracks/archive" data-link="gp-archive" target="_blank" class="list-group-item gp-tracks-archive-link only-logged">
+            <span data-i18n="popup_archive_menu_item">Archive</span>
+            <span class="badge" data-user-json="archive_tracking_count"></span>
+        </a>
+        <a href="http://forum.gdeposylka.ru" target="_blank" data-link=gp-forum" class="list-group-item only-ru">Официальный форум ГдеПосылки</a>
+        <a href="http://trade.aliexpress.com/order_list.htm" data-link="gp-aliexpress" target="_blank" class="list-group-item gp-aliexpress-orders-link"><span data-i18n="popup_orders_at_menu_item">Orders at</span> <span style="color:#ff9a22">Ali</span><span style="color:#e62a0b">Express</span></a>
+        <a href="https://gdeposylka.ru/go/letyshops_chrome" data-link="gp-letyshops" target="_blank" style="background: #7aaa00;color:#FFF;display: none" class="list-group-item only-ru gp-letyshops-link"><span data-i18n="popup_letyshops_at_menu_item">5% CashBack at</span> <span>AliExpress</span></a>
+        <div class="tracking_list"></div>
+    </div>
+</div>
+<script src="js/vendor_popup.js"></script>
+<script src="js/page.popup.js"></script>
+</body>
+</html>
