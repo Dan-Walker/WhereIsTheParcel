@@ -1,0 +1,150 @@
+{
+  "modal_unknown_tracking_title" : {
+    "message": "Unknown tracking number"
+  },
+  "modal_unknown_tracking_descr" : {
+    "message": "Sorry, we could not determine the tracking service for this tracking number."
+  },
+  "modal_choose_postal_service_title"  : {
+    "message": "Choose postal service for"
+  },
+  "modal_choose_postal_service_notify" : {
+    "message": "notify when status changed"
+  },
+  "options_show_context_menu" : {
+    "message": "Show context menu item (browser restart needed)"
+  },
+  "options_save_button" : {
+    "message": "Save"
+  },
+  "options_save_button_saved" : {
+    "message": "Successfully saved"
+  },
+  "options_track_code_pill" : {
+    "message": "Trackings"
+  },
+  "options_allow_highlight_tracking" : {
+    "message": "Allow highlighting of tracking numbers on sites:"
+  },
+  "options_data_storage_on_disk" : {
+    "message" : "Size of data storage on disk:"
+  },
+  "options_notification_change_message" : {
+    "message" : "Manage your settings in your user profile:"
+  },
+  "options_add_trackings_to_profile_allowed" : {
+    "message" : "Automatically save trackings in profile:"
+  },
+  "options_restore_default_settings" : {
+    "message" : "Restore default settings:"
+  },
+  "options_shared_pill" : {
+    "message": "General"
+  },
+  "options_restore_label" : {
+    "message" : "restore to default settings"
+  },
+  "options_notifications_pill" : {
+    "message": "Notifications"
+  },
+  "options_restore_pill" : {
+    "message": "Restore"
+  },
+  "options_allow_collect_statistics" : {
+    "message" : "Allow to collect and process anonymous statistics"
+  },
+  "options_yes" : {
+    "message": "Yes"
+  },
+  "options_no" : {
+    "message": "No"
+  },
+  "popup_profile_menu_name" : {
+    "message": "Profile"
+  },
+  "popup_forum_menu_name" : {
+    "message": "Forum"
+  },
+  "popup_website_menu_name" : {
+    "message": "Site"
+  },
+  "popup_tracking_input_placeholder" : {
+    "message": "Tracking number"
+  },
+  "popup_login" : {
+    "message": "Sign In"
+  },
+  "popup_exit": {
+    "message": "Sign out"
+  },
+  "popup_packages_menu_item" : {
+    "message": "My packages"
+  },
+  "popup_archive_menu_item" : {
+    "message": "Archive"
+  },
+  "popup_orders_at_menu_item" : {
+    "message": "My orders at"
+  },
+  "popup_letyshops_at_menu_item" : {
+    "message": "5% CashBack at"
+  },
+  "badge_found_tracking_numbers": {
+    "message": "Tracking numbers found"
+  },
+  "track_package_by_tracking" : {
+    "message": "Locate package with tracking number %s"
+  },
+  "track_package" : {
+    "message": "Locate package"
+  },
+  "track_on": {
+    "message": "Track at"
+  },
+  "brand_color": {
+    "message": "<b style='color:#0d63a1'>Package<span style='color:#f57815'>Radar</span></b>"
+  },
+
+  "track_number_header" : {
+    "message": "Tracking number:"
+  },
+  "popup_already_locate" : {
+    "message": "Already processing"
+  },
+  "popup_new_status_badge_title" : {
+    "message": "Package status changes"
+  },
+  "button_badge_title": {
+    "message": "Your packages changed tracking info"
+  },
+  "button_locate": {
+    "message": "Locate"
+  },
+  "button_locate_it": {
+    "message": "Locate"
+  },
+  "button_cancel": {
+    "message": "Cancel"
+  },
+  "button_save": {
+    "message": "Save"
+  },
+  "detect_url" : {
+    "message" : "http://packageradar.com/detect/"
+  },
+  "info_description": {
+    "message": "Postal package tracking plugin. Rapid tracking of packages from Aliexpress and JD."
+  },
+  "info_name": {
+    "message": "Package Radar"
+  },
+  "info_short_name": {
+    "message": "PackageRadar"
+  },
+  "popup_signin_menu_item": {
+    "message": "Sign in"
+  },
+  "popup_register_menu_item": {
+    "message": "Sign up"
+  }
+}
