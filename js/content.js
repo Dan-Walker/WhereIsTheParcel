@@ -1,0 +1,1 @@
+"use strict";chrome.runtime.onMessage.addListener(function(a){"context_menu"===a.from&&"locate_it_on_tab"===a.subject&&locateItOnTab(a.tracking,{},"Отслеживание","Меню по правому клику",extractDomain(window.location.href))});
